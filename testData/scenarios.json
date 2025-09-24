@@ -1,0 +1,118 @@
+[
+    {
+        "id": "TC-001",
+        "description": "Verify the “Auth” card appears in the “To Do” column with “Feature” and “High Priority” tags.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Web Application",
+            "title": "Web Application"
+        },
+        "card": {
+            "title": "Implement user authentication",
+            "column": "To Do",
+            "tags": [
+                "Feature",
+                "High Priority"
+            ]
+        }
+    },
+    {
+        "id": "TC-002",
+        "description": "Verify the “Fix navigation bug” card appears in the “To Do” column with “Bug” tag.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Web Application",
+            "title": "Web Application"
+        },
+        "card": {
+            "title": "Fix navigation bug",
+            "column": "To Do",
+            "tags": [
+                "Bug"
+            ]
+        }
+    },
+    {
+        "id": "TC-003",
+        "description": "Verify the “Design system updates” card appears in the “In Progress” column with “Design” tag.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Web Application",
+            "title": "Web Application"
+        },
+        "card": {
+            "title": "Design system updates",
+            "column": "In Progress",
+            "tags": [
+                "Design"
+            ]
+        }
+    },
+    {
+        "id": "TC-004",
+        "description": "Verify the “Push notification system” card appears in the “To Do” column with “Feature” tag.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Mobile Application",
+            "title": "Mobile Application"
+        },
+        "card": {
+            "title": "Push notification system",
+            "column": "To Do",
+            "tags": [
+                "Feature"
+            ]
+        }
+    },
+    {
+        "id": "TC-005",
+        "description": "Verify the “Offline mode” card appears in the “In Progress” column with “Feature” and “High Priority” tags.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Mobile Application",
+            "title": "Mobile Application"
+        },
+        "card": {
+            "title": "Offline mode",
+            "column": "In Progress",
+            "tags": [
+                "Feature",
+                "High Priority"
+            ]
+        }
+    },
+    {
+        "id": "TC-006",
+        "description": "Verify the “App icon design” card appears in the “Done” column with “Design” tag.",
+        "login": {
+            "user": "admin",
+            "pass": "password123"
+        },
+        "navigate": {
+            "section": "Mobile Application",
+            "title": "Mobile Application"
+        },
+        "card": {
+            "title": "App icon design",
+            "column": "Done",
+            "tags": [
+                "Design"
+            ]
+        }
+    }
+]
