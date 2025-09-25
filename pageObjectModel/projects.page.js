@@ -11,7 +11,7 @@ export class ProjectsPage {
     this. page = page;
     this. logoutButton = page.getByRole('button', { name: "Logout" });  
  }
- 
+
  async openSection(sectionTitle) {
    const item = this.page.getByRole('button', { name: new RegExp(sectionTitle, 'i') })          
    await item.click();
@@ -28,7 +28,7 @@ column(columnName) {
    return root;
  }
 
- cardByTitleInColumn(cardTitle, columnName) {
+cardByTitleInColumn(cardTitle, columnName) {
   const col = this.column(columnName);
   return col
     .locator(`div:has(> h3:has-text("${cssQuote(cardTitle)}"))`);
