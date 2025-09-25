@@ -22,13 +22,13 @@ async expectOnSection(pageTitle) {
    await expect(h1).toBeVisible();
 }
 
-async column(columnName) {
+column(columnName) {
    const root = this.page
      .locator(`div:has(> h2:has-text("${cssQuote(columnName)}"))`)  
    return root;
  }
 
-async cardByTitleInColumn(cardTitle, columnName) {
+ cardByTitleInColumn(cardTitle, columnName) {
   const col = this.column(columnName);
   return col
     .locator(`div:has(> h3:has-text("${cssQuote(cardTitle)}"))`);
